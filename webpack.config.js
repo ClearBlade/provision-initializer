@@ -16,9 +16,9 @@ module.exports = (webpackConfigEnv, argv) => {
       path: path.resolve(__dirname, "dist"),
     },
     entry: {
-      {{component_prefix}}_{{component_id}}: path.resolve(
+      provision_initializer: path.resolve(
         __dirname,
-        "mfe/{{component_prefix}}_{{component_id}}/index.tsx"
+        "mfe/provision_initializer/index.tsx"
       ),
     },
     externals: [

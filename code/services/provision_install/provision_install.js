@@ -4,7 +4,7 @@
  * @param {CbServer.Resp} resp
  */
 
-function {{component_prefix}}_install(req, resp) {
+function provision_install(req, resp) {
   const params = req.params;
   const mfe_settings = params.mfe_settings;
   //component install behavior here. Initialize an instance of the component for use

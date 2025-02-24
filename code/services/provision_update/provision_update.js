@@ -4,8 +4,8 @@
  * @param {CbServer.Resp} resp
  */
 
-function {{component_prefix}}_uninstall(req, resp) {
+function provision_update(req, resp) {
   const params = req.params;
-  //component uninstall behavior here, undo any steps done in the install service
+  //component update behavior here. Allow the user to update an instance of the component
   resp.success('Success');
 }
